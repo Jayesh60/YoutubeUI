@@ -1,0 +1,20 @@
+.videorow{
+    display: flex;
+    height: 180px !important;
+    max-width: 700px;
+    align-items: center;
+}
+.videorowtext{
+    margin-left: 14px;
+    height: 180px !important;
+    font-size: 12px;
+   margin-top: 40px;
+}
+.videorowtext>h3{
+    margin-bottom: 10px;
+}
+.videorow>img{
+    object-fit: contain;
+    width: 246px;
+    height: 138px;
+}

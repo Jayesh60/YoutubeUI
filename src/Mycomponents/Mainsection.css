@@ -1,0 +1,17 @@
+.mainsection{
+    flex: 0.85;
+   margin-left: 20px;
+   background-color: #FFFDFC;
+   margin-top: 5px;
+  
+}
+.mainsection > h2{
+    margin-left: 5px;
+    font-size: large;
+    margin-bottom: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.videos{
+    display: flex;
+    flex-wrap: wrap;
+}

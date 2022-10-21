@@ -1,0 +1,71 @@
+
+.Header_left{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    justify-content: space-between; 
+    
+}
+
+.Header_left>.Icon{
+    margin-right: 1px;
+    padding: 5px;
+}
+.Header_left > .Avatar{
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    
+}
+.Header{
+   display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: white;
+    flex-direction: row;
+} 
+.Header_right{
+    display: flex;
+    align-items: center;
+   
+
+}
+.logo{
+    height: 20px;
+    object-fit: contain;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.Header_input{
+    display: flex;
+    border: 1px solid rgb(175, 172, 172);
+    width: 50%;
+    align-items: center;
+    
+    
+}
+.Header_input >  input{
+    border: none;
+    font-size: medium;
+    flex: 1;
+    height: 35px;
+    background-color: transparent;
+    color: black;
+    margin-left: 7px;
+}
+.searchButton{
+
+    width: 40px !important;
+   
+    color: rgb(78, 77, 77);   
+}
+ .Header_input > input:focus {
+    overflow: hidden;
+    white-space: nowrap;
+    outline: none;
+    color: black;
+  }
